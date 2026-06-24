@@ -56,11 +56,18 @@ SELECT * FROM friends;
 
 Explicación de los Comandos Utilizados
 En este ejercicio se pusieron en práctica los siguientes conceptos clave de administración de bases de datos:
+
 CREATE TABLE: Define la estructura inicial de la tabla especificando los nombres de las columnas y sus tipos de datos (INTEGER para números, TEXT para cadenas de texto y DATE para fechas).
+
 INSERT INTO: Permite añadir nuevas filas (registros) con la información de cada amigo en la base de datos.
+
 UPDATE: Modifica datos ya existentes dentro de la tabla. Se utiliza junto con la cláusula WHERE para asegurarse de cambiar únicamente el registro específico (por ejemplo, el usuario con el id = 1).
+
 ALTER TABLE: Modifica la estructura de una tabla existente sin borrarla, permitiendo añadir la nueva columna email.
+
 DELETE FROM: Elimina registros específicos de la tabla según la condición indicada en el WHERE.
+
 SELECT * FROM: Recupera y muestra todos los datos almacenados en la tabla para verificar los resultados.
+
 Nota de resultado: Al ejecutar la consulta final, debido a la instrucción DELETE, la tabla solo
 mostrará los registros correspondientes a los IDs 2 y 3.
